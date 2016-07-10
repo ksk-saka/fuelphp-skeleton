@@ -41,7 +41,7 @@ class Controller_Contact_Me extends Controller_Template
 	{
 		$content = Model_Contact::forge(Input::post());
 		if ( ! $content->save())
-	    {
+		{
 			throw new HttpServerErrorException;
 		}
 		$this->template->title = __('title.contact/me/thanks');

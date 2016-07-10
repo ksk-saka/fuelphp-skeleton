@@ -38,7 +38,7 @@ return array(
 			'Closure',
 		),
 	),
-
+	
 	'module_paths' => array(
 		APPPATH.'modules'.DS
 	),
