@@ -52,6 +52,7 @@ return array(
 			'orm',
 		),
 		'language' => array(
+			'label',
 			'title',
 			'validation'
 		),

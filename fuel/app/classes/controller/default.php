@@ -7,7 +7,7 @@
  * @author    ksk-saka
  * @license   MIT License
  * @copyright ksk-saka
- * @extends   Controller
+ * @extends   Controller_Template
  */
 class Controller_Default extends Controller_Template
 {
@@ -15,12 +15,11 @@ class Controller_Default extends Controller_Template
 	 * The index action.
 	 *
 	 * @access  public
-	 * @return  Response
 	 */
 	public function action_index()
 	{
 		$this->template->title = __('title.default/index');
-        $this->template->content = View::forge('default/index');
+		$this->template->content = View::forge('default/index');
 	}
 	
 	/**
